@@ -1,6 +1,6 @@
 {
   "name": "cli-sleep",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sleep for specified time in Windows Console.",
   "main": "index.exe",
   "preferGlobal": true,
