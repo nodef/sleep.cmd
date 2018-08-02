@@ -31,5 +31,7 @@ $ sleep 1d && sleep 23h
 ```
 
 
+[![cli-sleep](https://i.imgur.com/2wdhAut.jpg)](https://merferry.github.io)
+
 [sleep]: https://en.wikipedia.org/wiki/Sleep_(Unix)
 [Windows Console]: https://en.wikipedia.org/wiki/Win32_console
