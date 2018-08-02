@@ -1,9 +1,12 @@
 {
   "name": "cli-sleep",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sleep for specified time in Windows Console.",
   "main": "index.exe",
+  "preferGlobal": true,
   "scripts": {
+    "install": "node install",
+    "uninstall": "node uninstall",
     "test": "exit"
   },
   "repository": {
