@@ -1,0 +1,29 @@
+{
+  "name": "cli-sleep",
+  "version": "0.0.1",
+  "description": "Sleep for specified time in Windows Console.",
+  "main": "sleep.exe",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cli-sleep.git"
+  },
+  "keywords": [
+    "cli",
+    "sleep",
+    "windows",
+    "command",
+    "line",
+    "interface",
+    "console",
+    "application"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodef/cli-sleep/issues"
+  },
+  "homepage": "https://github.com/nodef/cli-sleep#readme"
+}
