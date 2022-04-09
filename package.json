@@ -1,22 +1,22 @@
 {
-  "name": "cli-sleep",
-  "version": "1.0.1",
+  "name": "sleep.cmd",
+  "version": "1.0.2",
   "description": "Sleep for specified time in Windows Console.",
-  "main": "index.exe",
+  "main": "main.exe",
   "preferGlobal": true,
-  "scripts": {
-    "install": "node install",
-    "uninstall": "node uninstall",
-    "test": "exit"
+  "bin": {
+    "sleep": "main.exe"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodef/cli-sleep.git"
+  "scripts": {
+    "test": "exit",
+    "build": "node ./build",
+    "deploy": "node ./build deploy"
   },
   "keywords": [
-    "cli",
     "sleep",
+    "cmd",
     "windows",
+    "cli",
     "command",
     "line",
     "interface",
@@ -25,8 +25,15 @@
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cli-sleep.git"
+  },
   "bugs": {
     "url": "https://github.com/nodef/cli-sleep/issues"
   },
-  "homepage": "https://github.com/nodef/cli-sleep#readme"
+  "homepage": "https://github.com/nodef/cli-sleep#readme",
+  "devDependencies": {
+    "extra-build": "^2.0.31"
+  }
 }

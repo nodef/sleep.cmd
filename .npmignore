@@ -1,0 +1,18 @@
+# Source only
+.gitmodules
+.github/
+.docs/
+src/
+data/
+wiki/
+tests/
+TODO
+
+# Build
+.build/
+.travis.yml
+.coveralls.yml
+tsconfig.json
+jestconfig.json
+rollup.config.js
+build.js
