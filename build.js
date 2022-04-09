@@ -26,9 +26,9 @@ function publishRoot(nam, ver) {
     m.version  = ver;
     if (nam) { m.name = nam; }
     fs.restoreFileSync('README.md', () => {
-      var txt = fs.readFileTextSync('README.md');
-      if (nam) txt = txt.replace(new RegExp(m.name, 'g'), nam);
-      fs.writeFileTextSync('README.md', txt);
+      // var txt = fs.readFileTextSync('README.md');
+      // if (nam) txt = txt.replace(new RegExp(name, 'g'), nam);
+      // fs.writeFileTextSync('README.md', txt);
       package.write('.', m);
       package.publish('.');
       try { package.publishGithub('.', owner); }
