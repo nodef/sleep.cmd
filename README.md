@@ -5,7 +5,7 @@ Sleep for specified time in [Windows Console].<br>
 > Exactly same as [sleep] in Unix. \
 > Source code for [windows executable].
 
-> Stability: [Experimental](https://www.youtube.com/watch?v=L1j93RnIxEo).
+> Stability: [Stable](https://www.youtube.com/watch?v=L1j93RnIxEo).
 
 [sleep]: https://en.wikipedia.org/wiki/Sleep_(Unix)
 [Windows Console]: https://en.wikipedia.org/wiki/Win32_console

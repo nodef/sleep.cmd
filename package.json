@@ -1,6 +1,6 @@
 {
   "name": "sleep.cmd",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Sleep for specified time in Windows Console.",
   "main": "main.exe",
   "preferGlobal": true,
