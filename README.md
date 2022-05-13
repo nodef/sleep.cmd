@@ -48,4 +48,13 @@ $ sleep 1d && sleep 23h
 <br>
 <br>
 
+
+## References
+
+- [sleep (Unix)][sleep]
+- [Thread.Sleep Method (C#)](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep)
+
+<br>
+<br>
+
 [![](https://img.youtube.com/vi/rCSCPujLs14/maxresdefault.jpg)](https://www.youtube.com/watch?v=rCSCPujLs14)
