@@ -6,6 +6,7 @@ src/
 data/
 wiki/
 tests/
+CITATION.cff
 TODO
 
 # Build

@@ -1,6 +1,6 @@
 {
   "name": "sleep.cmd",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Sleep for specified time in Windows Command prompt.",
   "main": "main.exe",
   "preferGlobal": true,
