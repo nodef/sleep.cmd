@@ -1,15 +1,19 @@
-Sleep for specified time in [Windows Console].<br>
+Sleep for specified time in Windows Command prompt.<br>
 🖥️ [Command prompt](https://www.npmjs.com/package/sleep.cmd),
-📜 [Files](https://unpkg.com/sleep.cmd/),
+📜 [Files](https://unpkg.com/sleep.cmd/).
 
-> Exactly same as [sleep] in Unix. \
-> Source code for [windows executable].
+[sleep] is a command in *Unix-like* operating systems that **suspends program**
+**execution** for specified time. This package provides the `sleep` command for
+Windows [Command prompt], with exactly the **same behaviour** as in *Unix-like*
+*systems*. Please check examples below. [Source code] for the executable is
+written in `C#`. It should be noted *small delays* (few milliseconds) are *less*
+*accurate*.
 
 > Stability: [Stable](https://www.youtube.com/watch?v=L1j93RnIxEo).
 
 [sleep]: https://en.wikipedia.org/wiki/Sleep_(Unix)
-[Windows Console]: https://en.wikipedia.org/wiki/Win32_console
-[windows executable]: https://repl.it/@wolfram77/sleep-cmd
+[Command prompt]: https://en.wikipedia.org/wiki/Cmd.exe
+[Source code]: https://replit.com/@wolfram77/sleep-cmd
 
 <br>
 
