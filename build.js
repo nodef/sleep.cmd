@@ -2,7 +2,7 @@ const {fs, github, package} = require('extra-build');
 
 
 const owner = 'nodef';
-const names = ['cli-sleep'];
+const names = [];  // 'cli-sleep'
 
 
 
