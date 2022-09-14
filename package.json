@@ -1,15 +1,17 @@
 {
   "name": "sleep.cmd",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Sleep for specified time in Windows Command prompt.",
-  "main": "main.exe",
+  "main": "sleep.exe",
   "preferGlobal": true,
   "bin": {
-    "sleep": "main.exe"
+    "sleep": "sleep.exe"
   },
   "scripts": {
     "test": "exit",
-    "deploy": "node ./build deploy"
+    "build": "node ./build",
+    "publish-docs": "node ./build publish-docs",
+    "publish-packages": "node ./build publish-packages"
   },
   "keywords": [
     "sleep",
@@ -34,6 +36,6 @@
   },
   "homepage": "https://github.com/nodef/sleep.cmd#readme",
   "devDependencies": {
-    "extra-build": "^2.0.31"
+    "extra-build": "^2.2.28"
   }
 }
